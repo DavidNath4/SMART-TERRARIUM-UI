@@ -21,6 +21,10 @@
     color: var(--palette-4);    
 }
 
+#profile h5 {
+    color: var(--palette-4);    
+}
+
 #profile {
     display: inline-block;    
     width: 50%;
