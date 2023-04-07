@@ -44,7 +44,7 @@
 }
 
 .temp{
-    width:350px;
+    width:400px;
     height:30px;
     margin: auto;
     margin-top: 1rem;
@@ -75,4 +75,10 @@
 }
 
 
-
+@media only screen and (max-width: 576px) {
+    .temp{
+        width:320px;
+        height:30px;        
+    }
+    
+}
