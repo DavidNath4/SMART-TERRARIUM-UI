@@ -91,3 +91,55 @@
     background-color: var(--palette-3);
 }
 
+
+@media only screen and (max-width: 576px) {
+
+  #form-container {
+    width: 350px;
+    height: 550px;
+  }
+
+#feed1 {
+    height: 120px;
+    width: 160px;    
+  }
+#feed2 {
+    height: 120px;
+    width: 160px;
+  }
+
+#temp {
+    height: 120px;
+    width: 160px;
+    
+  }
+
+#humd {
+    height: 120px;
+    width: 160px;
+    
+  }
+
+#food {
+    height: 120px;
+    width: 160px;
+    
+  }
+
+#drink {
+    height: 120px;
+    width: 160px;
+    
+  }
+
+  #row4{
+    display: flex;
+    padding-top: 1rem;
+}
+
+#uv{
+    height: 110px;
+    width: 335px;
+}
+  
+}
