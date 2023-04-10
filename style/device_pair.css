@@ -59,10 +59,14 @@ main{
     border-radius: 15px;
     background: var(--palette-4);
     width: 100%;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 1.8/1;
     padding-top: 1rem;
     box-sizing: border-box;
     margin-top: 20px; /* Add margin-top */
+  }
+
+#pair2 h4{
+    text-align: center;
   }
   
 
@@ -73,16 +77,6 @@ main{
 #pair1 h4{ 
     text-align: center;
 }
-
-/* #pair2{
-    border-radius: 15px;
-    background: var(--palette-4);
-    width: 100%;
-    /* aspect-ratio: 1/1; */
-    /* padding-top: 1rem;
-    box-sizing: border-box; */
-    
-/* } */ 
 
 
 #form-device{
@@ -139,6 +133,7 @@ button[type=button]:hover {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     outline: none;
