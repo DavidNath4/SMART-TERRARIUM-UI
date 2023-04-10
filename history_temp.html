@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Terraium</title>
     <link rel="stylesheet" href="/style/base.css">
+    <link rel="stylesheet" href="/style/dropdown.css">
     <link rel="stylesheet" href="/style/history_temp.css">
 
 </head>
@@ -15,14 +16,29 @@
     <main>
 
         <div id="dashboard-main">
-            <div id="profile">
+            <div id="dashboard">
                 <h5>Welcome,</h5>
                 <p>David Nathanael</p>
             </div>
 
-            <div id="dashboard">
+            <div id="profile">
                 <img src="./image/Dashboard Layout.svg" alt="dashboard">
-                <h4>Dashboard</h4>
+                <h4>Menu</h4>
+            </div>
+
+            <div class="drop-down d-none" id="drop-down-container">
+                <a href="">
+                    <img src="./image/device.svg" alt="dashboard">
+                    Device
+                </a>
+                <a href="">
+                    <img src="./image/profile.svg" alt="dashboard">
+                    Profile
+                </a>
+                <a href="">
+                    <img src="./image/loggout.svg" alt="dashboard">
+                    Logout
+                </a>
             </div>
         </div>
 
@@ -49,6 +65,7 @@
 
 
     </main>
+    <script src="/js/dropdown.js"></script>
 </body>
 
 </html>
