@@ -8,7 +8,9 @@
     <title>Smart Terraium</title>
     <link rel="stylesheet" href="/style/base.css">
     <link rel="stylesheet" href="/style/dropdown.css">
-    <link rel="stylesheet" href="/style/history_temp.css">
+    <link rel="stylesheet" href="/style/register.css">
+    <link rel="stylesheet" href="/style/profile.css">
+
 </head>
 
 <body>
@@ -41,28 +43,28 @@
         </div>
 
         <div id="form-container">
-            <h2>TEMPERATURE</h2>
-            <h4>Smart Terraium</h4>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username">
 
-            <div class="temp">
-                <p class="value">32&degC</p>
-                <p class="time">Minggu 31 Desember 2023 pukul 19.00</p>
-            </div>
+                <label for="Email">Email</label>
+                <input type="email" id="email">
 
-            <div class="temp">
-                <p class="value">32&degC</p>
-                <p class="time">Minggu 31 Desember 2023 pukul 19.00</p>
-            </div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
 
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password">
+
+                <div class="button-container">
+                    <button type="button">Save</button>
+                    <a href="">Logout</a>
+                </div>
+
+            </form>
         </div>
-
-        <div>
-            <form action=""></form>
-        </div>
-
-
-
     </main>
+
     <script src="/js/dropdown.js"></script>
 </body>
 
